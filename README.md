@@ -1,3 +1,3 @@
-# Pygmalion Anonymous Project Page
+# Pygmalion Project Page
 
-Static anonymous project page for Pygmalion.
+Static project page for Pygmalion.
