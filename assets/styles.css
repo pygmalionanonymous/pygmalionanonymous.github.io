@@ -133,9 +133,41 @@ video {
 }
 
 .authors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
   margin: 22px 0 0;
   color: rgba(255, 255, 255, 0.74);
   font-size: 18px;
+}
+
+.publication-authors {
+  max-width: 900px;
+}
+
+.authors span,
+.affiliations span {
+  display: inline-block;
+}
+
+.publication-authors sup {
+  font-size: 0.7em;
+  margin-left: 2px;
+}
+
+.affiliations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 22px;
+  margin: 10px 0 0;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 16px;
+}
+
+.author-notes {
+  margin: 8px 0 0;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 13px;
 }
 
 .tagline {
